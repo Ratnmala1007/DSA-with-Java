@@ -2,7 +2,7 @@ package com.dsa.assignment_1;
 
 import java.util.Scanner;
 
-public class Pattern_10 {
+public class PatternMagic {
     public static void main (String args[]) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

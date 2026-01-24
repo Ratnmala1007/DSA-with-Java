@@ -5,7 +5,7 @@ package com.dsa.assignment_1;
 //             4 5 6 7 6 5 4
 
 
-public class Pattern_2 {
+public class PatternTriangle {
     public static void main(String[] args) {
         int n = 4;
 

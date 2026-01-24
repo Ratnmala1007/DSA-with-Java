@@ -1,4 +1,4 @@
-package com.dsa.day01;
+package com.dsa.day02;
 
 public class MaxNum {
     public static void main(String[] args) {
