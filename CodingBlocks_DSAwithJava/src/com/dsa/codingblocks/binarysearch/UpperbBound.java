@@ -19,10 +19,10 @@ public class UpperbBound {
             return lb;
         }
         public static void main(String[] args) {
-            int[] arr = {2,3,4,5,6,7,8,9,10};
+            int[] arr = {2,3,4,5,6,7,7,7,8,9,10};
             int n = arr.length;
-            int x = 5;
-            System.out.println(upperBound(arr, 5, n));
+            int x = 6;
+            System.out.println(upperBound(arr, 6, n));
         }
     }
 

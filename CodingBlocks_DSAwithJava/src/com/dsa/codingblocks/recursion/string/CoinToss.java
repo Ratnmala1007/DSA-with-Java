@@ -6,12 +6,13 @@ public class CoinToss {
         print("",0,n);
     }
     static void print(String p,int i,int n){
+        //base case
         if(i==n){
             System.out.print(p+" ");
             return;
         }
         //Head
-        if(p.isEmpty() || p.charAt(p.length()-1)!='H' )
+       // if(p.isEmpty() || p.charAt(p.length()-1)!='H' )
         print(p + 'H',i + 1,n);
         //Tail
         print(p + 'T',i + 1,n);

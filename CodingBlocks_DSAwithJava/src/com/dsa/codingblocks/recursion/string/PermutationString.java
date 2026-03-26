@@ -19,6 +19,7 @@ public class PermutationString {
     }
 }
 private static boolean isUsed(String used,char ch) {
+
     for (int i = 0; i < used.length(); i++) {
         if (used.charAt(i) == ch)
             return true;

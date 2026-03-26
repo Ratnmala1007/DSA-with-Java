@@ -17,6 +17,7 @@ public class ZeroOneKnapsack {
 //take
         sb.append(coins[i]);
         solve(coins, sum - coins[i], i + 1, sb);
+        //backtrack
         sb.deleteCharAt(sb.length()-1);
 
         solve(coins, sum, i + 1, sb);
