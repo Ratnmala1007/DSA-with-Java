@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MultiDiaArr {
     public static void main(String[] args) {
-       Scanner in=new Scanner(System.in);
+       Scanner in = new Scanner(System.in);
         /*
            1 2 3
            4 5 6

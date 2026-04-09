@@ -8,7 +8,7 @@ public class ZeroOneKnapsack {
         int n = coins.length;
 
         if (sum == 0) {
-            System.out.println(sb);
+            System.out.println(sb+",");
             return;
         }
         if (i >= n || sum < 0)
@@ -25,7 +25,7 @@ public class ZeroOneKnapsack {
 
     }
     public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder("");
+        StringBuilder sb = new StringBuilder(" ");
         int[] coins ={1,4,2};
         int sum=6;
         solve(coins,sum,0,sb);
