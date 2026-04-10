@@ -23,7 +23,6 @@ int target = 17;
 
           }
       }
-       // System.out.println(map.get(num));
     }
 
 
