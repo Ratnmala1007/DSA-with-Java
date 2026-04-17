@@ -1,4 +1,4 @@
-package com.dsa.dailycode.day10_2026_04_15;
+package com.dsa.dailycode.day7_2026_04_15;
 
 public class Hashmapcls {
     public static void main(String[] args) {
