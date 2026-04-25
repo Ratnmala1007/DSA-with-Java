@@ -1,7 +1,5 @@
 package com.dsa.codingblocks.tree;
 
-import com.dsa.codingblocks.linkedlists.Main;
-
 import java.util.Scanner;
 
  class BinaryTree {

@@ -2,7 +2,7 @@ package com.dsa.practice.leetcode;
 
 public class FindMinInRotatedSortedarr_154 {
         static int findMin(int[] nums) {
-            int low = 0, high = nums.length - 1;
+            int low = 0, high = nums.length - 1;//{2,2,2,4,3,0,1};
 
             while (low < high) {
                 int mid = low + (high - low) / 2;

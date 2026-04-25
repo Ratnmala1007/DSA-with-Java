@@ -2,7 +2,7 @@ package com.dsa.dailycode.day2_2026_04_07;
 
 public class MoveZerosToEnd {
     public static void main(String[] args) {
-        int []arr = { 0,1,0,3,12};
+        int []arr = { 0,0,0,3,12};
           int index = 0;
         for(int i = 0; i < arr.length;i++){
             if(arr[i] != 0){

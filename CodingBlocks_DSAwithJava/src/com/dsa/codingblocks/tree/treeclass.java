@@ -13,7 +13,7 @@ public Node right;
     }
 
 }
-public class tree {
+public class treeclass {
     public static void main(String[] args) {
         Node root = new Node(10);
         Node leftChild = new Node(20);
