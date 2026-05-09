@@ -2,6 +2,11 @@ package com.dsa.dailycode.day13_2026_04_27;
 
 import java.util.Arrays;
 
+/*LEFT ROTATE:
+        1. Reverse first k
+        2. Reverse rest
+        3. Reverse full  */
+
 public class LeftRotateArr {
     public static void main(String[] args) {
         int[]arr = {1,2,3,4,5,6,7};

@@ -1,6 +1,6 @@
 package com.dsa.dailycode.day1_2026_04_06;
 
-public class ReverseArr {
+public class SwapArr {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4};
        reverse(arr);

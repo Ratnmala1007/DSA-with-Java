@@ -13,12 +13,12 @@ int left = 0;
 int right = arr.length-1;
 
 while(left < right ){
-    if(arr[left] != arr[right]){
-        return false;
+    if(arr[left] == arr[right]){
+        return true;
     }
     left++;
     right--;
 }
-return true;
+return false;
     }
 }

@@ -1,6 +1,10 @@
 package com.dsa.dailycode.day13_2026_04_27;
 
 import java.util.Arrays;
+/*RIGHT ROTATE:
+        1. Full reverse
+        2. Reverse first k
+        3. Reverse rest  */
 
 public class RightRotateArr {
     public static void main(String[] args) {

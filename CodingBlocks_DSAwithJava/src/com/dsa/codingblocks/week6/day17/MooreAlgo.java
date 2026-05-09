@@ -2,7 +2,7 @@ package com.dsa.codingblocks.week6.day17;
 
 public class MooreAlgo {
     public static void main(String[] args) {
-        int []nums={3,2,3};
+        int []nums={1,2,2,2};
         int result=majorityElement( nums);
         System.out.println(result);
     }
@@ -24,7 +24,13 @@ public class MooreAlgo {
                 }
             }
 
-            return candidate;
+            int count1 = 0;
+            for(int num : nums){
+                if(num == candidate) count++;
+            }
+            if(count > nums.length/2) return candidate;
+            else return -1;
+
         }
     }
 

@@ -10,6 +10,7 @@ public class RotateArr {
         int k =3;
         int[] result = rotate(arr, k);
 
+
         System.out.println(Arrays.toString(result));
     }
     public static int[] rotate(int[]arr,int k){
