@@ -13,7 +13,7 @@ public class LongestSubstringWithoutReapitingChar {
 
        for(int right =0; right < s.length(); right++){
            char ch = s.charAt(right);
-if(map.containsKey(ch))   {
+        if(map.containsKey(ch)) {
 
     left = Math.max(left,map.get(ch)+1);
 }

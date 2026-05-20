@@ -10,12 +10,15 @@ public class TwoUnique {
         for(int num:arr){
             map.put(num,map.getOrDefault(num,0)+1);
         }
-        for (int key : map.keySet()) {
-            if (map.get(key) == 1) {
-                System.out.println(key);
-                //break;
+        int count = 0;
+        for(int num:arr){
+            if (map.get(num) == 1) {
+                System.out.println(num);
+                count++;
             }
-
+          if(count == 2){
+              break;
+}
         }
     }
 }

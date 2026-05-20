@@ -20,6 +20,7 @@ if(map.containsKey(sum-k)) {
         map.put(sum, i);
     }
 }
+        System.out.println(map);
         System.out.println("Max Length = " + maxLength);
 
     }

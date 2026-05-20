@@ -9,19 +9,19 @@ public class ProductOfArrExceptItself {
     }
     public static int[] product(int[]arr){
         int n = arr.length;
-        int[] result = new int[n];
+        int[] prefix = new int[n];
 
-        result[0] = 1;
+        prefix[0] = 1;
         for (int i = 1; i < arr.length;i++) {
-            result[i] = result[i - 1] * arr[i - 1];
+            prefix[i] = prefix[i - 1] * arr[i - 1];
         }
         int right = 1;
 
             for (int i = n-1; i >= 0;i--){
-                result[i] = result[i] * right;
+                prefix[i] = prefix[i] * right;
                 right = right * arr[i];
             }
-        return result;
+        return prefix;
     }
 
 }

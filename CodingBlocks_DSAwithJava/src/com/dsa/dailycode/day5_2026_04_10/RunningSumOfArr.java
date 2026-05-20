@@ -5,7 +5,7 @@ public class RunningSumOfArr {
         int[]arr = {1,2,3,4};
 
         for(int i = 1; i < arr.length; i++){
-           arr[i] = arr[i]+arr[i-1];
+           arr[i] = arr[i]+arr[i-1];//its called In-place Prefix Sum approach
         }
         for(int num:arr){
             System.out.print(num+" ");

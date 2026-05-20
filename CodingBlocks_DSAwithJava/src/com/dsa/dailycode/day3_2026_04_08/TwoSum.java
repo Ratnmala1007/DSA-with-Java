@@ -18,8 +18,7 @@ int target = 17;
          return;
      }
           map.put(arr[i],i);
-
-
+            System.out.println(map);
           }
       }
     }

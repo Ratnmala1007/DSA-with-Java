@@ -1,15 +1,17 @@
 package com.dsa.dailycode.day5_2026_04_10;
 
+import java.util.Arrays;
+
 public class PrefixSumBasedRange {
     public static void main(String[] args) {
         //1st approach
-        int[]arr = { 1,2,3,4,5,6};
+        int[]arr = { 1,2,3};
 
-        for(int i = 1;i<=3;i++){
-            int sum=arr[i]+arr[i-1];
-
-            System.out.print(sum+" ");
-        }
+//        for(int i = 1;i<=3;i++){
+//            int sum=arr[i]+arr[i-1];
+//
+//            System.out.print(sum+" ");
+//        }
 
         //2nd approach
 
@@ -18,9 +20,19 @@ public class PrefixSumBasedRange {
                for(int i = 1;i<arr.length;i++){
                    prefix[i]=prefix[i-1]+arr[i];
                }
-int l = 1;int r = 3;
+        System.out.println(Arrays.toString(prefix));
+int left = 1;int right = 2;
 
-int sum = prefix[r] - prefix[l-1];
-        System.out.print(sum+" ");
+int sum ;
+        if(left == 0){
+            sum = prefix[right];
+
+        } else {
+            sum = prefix[right] - prefix[left - 1];
+
+        }
+        System.out.println(sum);
     }
-}
+
+    }
+
