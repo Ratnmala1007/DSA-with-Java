@@ -9,7 +9,7 @@ public class Subsequences {
 
     private static void print(String s, int i, int n, String output) {
         if (i == n) {
-            System.out.println(output.toString());
+            System.out.println(output);
             return;
         }
         //take

@@ -3,8 +3,8 @@ package com.dsa.codingblocks.recursion.string;
 import java.sql.SQLOutput;
 
 public class CountSubsequences {
-    private static void fun(String s,int i,int n, String output) {
-    }
+   // private static void fun(String s,int i,int n, String output) {
+   // }
     private static int subCount(String s,int i,int n, String output){
 
         //Base case
@@ -22,7 +22,7 @@ return take+notTake;
         String s="abc";
         int n=s.length();
 
-        fun(s,0,n,"");
+       // fun(s,0,n,"");
         System.out.println(subCount(s,0,n,""));
     }
 
