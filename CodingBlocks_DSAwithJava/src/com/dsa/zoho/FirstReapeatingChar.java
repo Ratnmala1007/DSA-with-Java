@@ -1,10 +1,11 @@
 package com.dsa.zoho;
 
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class FirstReapeatingChar {
     public static void main(String[] args) {
-        String s = "addbcc";
+        String s = "adbdacc";
         char result = firstRepeatingChar(s);
         if (result != '\0') {
             System.out.println("First repeating char: " + result);
@@ -14,20 +15,15 @@ public class FirstReapeatingChar {
     }
 
     public static char firstRepeatingChar(String s) {
-        HashMap<Character, Integer> map = new HashMap<>();
+        HashSet<Character> set = new HashSet<>();
 
         for (char c : s.toCharArray()) {
-            map.put(c, map.getOrDefault(c, 0) + 1);
-        }
-        for (char c : s.toCharArray()) {
-            if (map.get(c) > 1) {
-                //System.out.println(c);
-               // break;
+            if (set.contains(c)) {
                 return c;
             }
+            set.add(c);
+            System.out.println(set);
         }
+        return '\0';
 
-        return '\0'; // not found
-
-    }
-}
+    }}

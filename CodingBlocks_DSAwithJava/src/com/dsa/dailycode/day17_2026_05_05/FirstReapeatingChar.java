@@ -21,9 +21,9 @@ public class FirstReapeatingChar {
         }
         for (char c : s.toCharArray()) {
             if (map.get(c) > 1) {
-                //System.out.println(c);
-               // break;
-                return c;
+                System.out.println(c);
+               break;
+                //return c;
             }
         }
 

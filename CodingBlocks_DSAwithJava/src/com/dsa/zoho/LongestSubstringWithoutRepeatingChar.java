@@ -23,6 +23,7 @@ public class LongestSubstringWithoutRepeatingChar {
                 max = Math.max(right-left+1, max);
             }
         System.out.println(max);
+        System.out.println(map);
         }
 
     }

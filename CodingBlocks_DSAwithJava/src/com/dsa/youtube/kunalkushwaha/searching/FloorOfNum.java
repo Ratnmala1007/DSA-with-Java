@@ -4,8 +4,9 @@ package com.dsa.youtube.kunalkushwaha.searching;
 public class FloorOfNum {
     public static void main(String[] args) {
         int[] arr={-2,2,5,8,12,14,16,23,38,56,72,91};
-        int target=-3;
+        int target=3;
         int ans=floorNum(arr,target);
+
         System.out.println(ans);
     }
     static int floorNum(int[]arr,int target){

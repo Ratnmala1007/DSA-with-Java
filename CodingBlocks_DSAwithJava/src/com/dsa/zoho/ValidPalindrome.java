@@ -4,29 +4,29 @@ public class ValidPalindrome {
     public static void main(String[] args) {
 
 
-        String s = "racecar*12";
+        String s = "ra1r";
         System.out.println(isPalindrome(s));
     }
     public static boolean isPalindrome(String s) {
 
-        int right = s.length();
-        int left = s.length();
+        int left = 0;
+        int right = s.length()-1;
 
        // for (int i = 0; i < s.length(); i++){
             while (left < right){
-                char l = s.charAt(left);
-                char r = s.charAt(right);
+//                char l = s.charAt(left);
+//                char r = s.charAt(right);
 
 
-                if(!Character.isLetterOrDigit(l)){
+                if(!Character.isLetterOrDigit(s.charAt(left))){
                     left++;
                     continue;
                 }
-                if(!Character.isLetterOrDigit(right)){
+                if(!Character.isLetterOrDigit(s.charAt(right))){
                     right--;
                   continue;
             }
-                if (Character.toLowerCase(l)!=Character.toLowerCase(right)){
+                if (Character.toLowerCase(s.charAt(left))!=Character.toLowerCase(s.charAt(right))){
                     return false;
 
                 }

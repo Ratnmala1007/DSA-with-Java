@@ -6,24 +6,24 @@ package com.dsa.zoho;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] arr = {-1,0,3,5,9,12};
-        int target = 9;
-        System.out.println(binarySearch(arr,9));
+        int[] arr = {2,5,8,12};
+        int target = 12;
+        System.out.println(binarySearch(arr,12));
     }
     public static int binarySearch(int[] arr,int target){
-        int low = 0;
-        int high = arr.length-1;
+        int start = 0;
+        int end = arr.length-1;
 
-        while(low < high){
-            int mid = low + (high - low)/2;
+        while(start <= end){
+            int mid = start + (end - start)/2;
             if(target < arr[mid]){
-                high = mid - 1;
+                end = mid - 1;
             }
             else if(target > arr[mid]){
-                low = mid +1;
+                start = mid +1;
             }
             else{
-                return mid;
+                return arr[mid];
             }
         }
         return -1;
