@@ -11,7 +11,7 @@ public class MazePath {
 
             // reached destination
             if (row == n - 1 && col == m - 1) {
-                System.out.print(path+" ");
+                System.out.println(path+" ");
                 return;
             }
 

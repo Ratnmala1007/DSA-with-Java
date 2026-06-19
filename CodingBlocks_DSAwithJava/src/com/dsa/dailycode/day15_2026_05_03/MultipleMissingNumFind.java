@@ -2,7 +2,7 @@ package com.dsa.dailycode.day15_2026_05_03;
 
 public class MultipleMissingNumFind {
     public static void main(String[] args) {
-        int[]arr = {4,5,7};
+        int[]arr = {4,5};
         System.out.println(findMissing(arr,3));
 
     }
