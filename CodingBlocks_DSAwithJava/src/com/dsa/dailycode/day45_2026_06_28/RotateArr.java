@@ -1,6 +1,7 @@
-package com.dsa.zoho.zoho;
+package com.dsa.dailycode.day45_2026_06_28;
 
 import java.util.Arrays;
+
 /*In right rotation, last k elements move to front.
         In left rotation, first k elements move to end.
         We normalize k using k % n to handle large values.” */

@@ -6,7 +6,8 @@ public class FindTheElementThatAppearsOnlyOnce {
         //using xor works only 1 unique in arr for more than 1 unique use hashmap
         int result = 0;
         for(int num:arr){
-            result = result ^ num;}
+            result = result ^ num;
+        }
             System.out.println(result+" ");
 
 

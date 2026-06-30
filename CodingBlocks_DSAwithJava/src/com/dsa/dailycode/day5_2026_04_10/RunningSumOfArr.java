@@ -1,4 +1,7 @@
 package com.dsa.dailycode.day5_2026_04_10;
+
+import java.util.Arrays;
+
 //sum of arr element using prefix
 public class RunningSumOfArr {
     public static void main(String[] args) {
@@ -7,8 +10,8 @@ public class RunningSumOfArr {
         for(int i = 1; i < arr.length; i++){
            arr[i] = arr[i]+arr[i-1];//its called In-place Prefix Sum approach
         }
-        for(int num:arr){
-            System.out.print(num+" ");
-        }
+       // for(int num:arr){
+            System.out.print(Arrays.toString(arr));
+       // }
     }
 }

@@ -28,7 +28,8 @@ public class LeftRotateArr {
     }
     public static void reverse(int[]arr,int start,int end){
         //start = 0;
-       // end = arr.length-1;
+       // end = arr.length-1;  {1,2,3,4,5,6,7}  {3,2,1,4,5,6,7}
+        // { 3,2,1,7,6,5,4}  {4,5,6,7,1,2,3}
 
         while (start < end ){
             int temp = arr[start];

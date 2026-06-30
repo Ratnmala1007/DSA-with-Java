@@ -4,7 +4,7 @@ public class CountWords {
     public static void main(String[] args) {
 
 
-        String s = " I am a Java developer";
+        String s = "I am a Java developer";
         //s = s.toLowerCase();
 
         String[]words = s.trim().split("\\s+");

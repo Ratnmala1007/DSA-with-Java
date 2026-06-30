@@ -6,7 +6,7 @@ package com.dsa.dailycode.day23_2026_05_11.weeklyPractice;
 
 public class StringCompression {
     public static void main(String[] args) {
-        String s = "abbdccc";
+        String s = "abbdccca";
         StringBuilder sb = new StringBuilder();
         int count = 1;
         for (int i = 0; i < s.length(); i++){
