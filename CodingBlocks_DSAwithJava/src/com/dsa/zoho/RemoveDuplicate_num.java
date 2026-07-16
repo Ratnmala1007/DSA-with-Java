@@ -22,7 +22,8 @@ public class RemoveDuplicate_num {
 
         System.out.println(set);
 
-        return nums.length;
+        //return nums.length;
+        return set.size();
     }
 
 }
