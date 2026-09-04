@@ -4,11 +4,12 @@ import java.util.HashMap;
 
 public class LongestSubstringWithoutRepeatingChar {
     public static void main(String[] args) {
-//String s = "abcadeefs";
+        String s = "abcabcbb";
+        System.out.println(LongestSubString(s));
+    }
 
-
-      //  public static void LongestSubString (String s){
-       String s = "abcadeefs";
+        public static int LongestSubString (String s){
+       // s = "abcadeefs";
 
             int left = 0;
             int max = 0;
@@ -22,8 +23,9 @@ public class LongestSubstringWithoutRepeatingChar {
                 map.put(ch,0);
                 max = Math.max(right-left+1, max);
             }
-        System.out.println(max);
-        System.out.println(map);
+            System.out.println(map);
+
+            return max;
         }
 
     }

@@ -4,7 +4,7 @@ public class FindMax {
     public static void main(String[] args) {
         int[]arr={-2,-1,-12};
 
-        int max = arr[0];
+        int max = Integer.MIN_VALUE;
 
         for(int num:arr) {
 

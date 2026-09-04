@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class RemoveDuplicate_num {
     public static void main(String[] args) {
-        int[] nums = { 11,2,3,2,3,5};
+        int[] nums = {10, 20, 20, 30, 30, 40, 50, 50};
 //        HashSet<Integer> set = new HashSet<>();
 //        for(int num : arr){
 //            set.add(num);
