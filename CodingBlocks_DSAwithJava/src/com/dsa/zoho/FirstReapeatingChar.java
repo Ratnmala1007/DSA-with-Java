@@ -5,7 +5,7 @@ import java.util.HashSet;
 
 public class FirstReapeatingChar {
     public static void main(String[] args) {
-        String s = "adbdacc";
+        String s = "aebdfcc";
         char result = firstRepeatingChar(s);
         if (result != '\0') {
             System.out.println("First repeating char: " + result);

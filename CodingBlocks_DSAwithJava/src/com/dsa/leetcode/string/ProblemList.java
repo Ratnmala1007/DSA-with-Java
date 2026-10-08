@@ -6,9 +6,9 @@
 //            | 1  | 344 | Reverse String                     | Two Pointer    ✅     |
 //            | 2  | 541 | Reverse String II                  | String manipulation ✅ |
 //            | 3  | 125 | Valid Palindrome                   | Two Pointer      ✅    |
-//            | 4  | 242 | Valid Anagram                      | Frequency           |
-//            | 5  | 383 | Ransom Note                        | Frequency           |
-//            | 6  | 387 | First Unique Character in a String | HashMap             |
+//            | 4  | 242 | Valid Anagram                      | Frequency   ✅        |
+//            | 5  | 383 | Ransom Note                        | Frequency  ✅           |
+//            | 6  | 387 | First Unique Character in a String | HashMap   ✅          |
 //            | 7  |  28 | Find Index of First Occurrence     | String search       |
 //            | 8  |  14 | Longest Common Prefix              | String              |
 //            | 9  | 205 | Isomorphic Strings                 | HashMap             |

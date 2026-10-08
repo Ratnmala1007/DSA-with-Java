@@ -14,7 +14,7 @@ public class GCD {
         while(divisor != 0){
             int rem=divident % divisor;
             divident = divisor;
-            divisor=rem;
+            divisor = rem;
         }
                 System.out.println(divident);
 

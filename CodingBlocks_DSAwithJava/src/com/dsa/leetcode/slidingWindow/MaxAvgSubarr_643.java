@@ -9,20 +9,20 @@ int nums[]={1,-5,-3,40};
     public static double findMaxAverage(int[] nums, int k) {
             int sum=0;
             for(int i =0;i < k;i++){
-                sum+=nums[i];//2
+                sum+=nums[i];//-4
             }
                 int left =0;
         int max =sum;
 
-                for(int right =k;right<nums.length;right++) {
-                    sum = sum - nums[left] + nums[right];//2-1+51=51  51-12+3=42
-                    left++;                              //1 2
+                for(int right =k;right<nums.length;right++) {//1,-5,-3,40
+                    sum = sum - nums[left] + nums[right];//(-4-1+-3=-8 )(-8-(-5)+40=37)
+                    left++;                              //1 ,-5,-3
 
 
-                    max = Math.max(sum, max);  // (51,0)=51 (42,52) 51
+                    max = Math.max(sum, max);  // (-4,-8)(-4,37)
                 }
 
-            return (double)max/k;//51/4=12.75
+            return (double)max/k;//37/2=18.5
         }
 
 }

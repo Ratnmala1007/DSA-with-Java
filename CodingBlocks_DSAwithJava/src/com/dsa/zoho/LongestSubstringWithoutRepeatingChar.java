@@ -13,7 +13,8 @@ public class LongestSubstringWithoutRepeatingChar {
 
             int left = 0;
             int max = 0;
-            HashMap<Character, Integer> map = new HashMap<>();
+            HashMap<Character, Integer> map = new HashMap<>();//a -2 b -1 c-1 d-1 e-2 f-1 s-1
+                                                              // abc bcade cade ade de efe
             for (int right = 0; right < s.length(); right++) {
                 char ch = s.charAt(right);
                 while (map.containsKey(ch)) {
@@ -23,7 +24,7 @@ public class LongestSubstringWithoutRepeatingChar {
                 map.put(ch,0);
                 max = Math.max(right-left+1, max);
             }
-            System.out.println(map);
+            //System.out.println(map);
 
             return max;
         }

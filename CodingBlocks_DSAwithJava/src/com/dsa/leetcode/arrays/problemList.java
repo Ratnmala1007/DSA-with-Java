@@ -8,8 +8,8 @@
 //            | 3  | 1470 | Shuffle the Array                        | Array manipulation ✅ |
 //            | 4  | 1431 | Kids With the Greatest Number of Candies | Max           ✅     |
 //            | 5  | 1295 | Find Numbers with Even Number of Digits  | Digits        ✅     |
-//            | 6  |  485 | Max Consecutive Ones                     | Counting           |
-//            | 7  |  217 | Contains Duplicate                       | HashSet            |
+//            | 6  |  485 | Max Consecutive Ones                     | Counting     ✅      |
+//            | 7  |  217 | Contains Duplicate                       | HashSet      ✅      |
 //            | 8  |  136 | Single Number                            | XOR                |
 //            | 9  |  268 | Missing Number                           | XOR / Math         |
 //            | 10 |  349 | Intersection of Two Arrays               | HashSet            |
